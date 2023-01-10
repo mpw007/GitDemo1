@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mystore.TestCase.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validLoginUser"/>
+          <include name="loadConfig"/>
+          <include name="teardum"/>
+        </methods>
+      </class> <!-- com.mystore.TestCase.LoginPageTest -->
+      <class name="com.mystore.TestCase.HomePageTest">
+        <methods>
+          <include name="launch"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.TestCase.HomePageTest -->
+      <class name="com.mystore.TestCase.CreateAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validHead"/>
+          <include name="teardum"/>
+          <include name="loadConfig"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.mystore.TestCase.CreateAccountTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
